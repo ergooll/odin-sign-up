@@ -95,10 +95,15 @@ input[type=number] {
 }
 
 .intro-text {
+    margin-bottom: 2rem;
     align-self: flex-start;
     padding-left: 5%;
     width: 70%;
     line-height: 1.5rem;
+}
+
+.intro-text p {
+    margin: 0;
 }
 
 .form-container {
@@ -130,12 +135,16 @@ input[type=number] {
     border: 1px solid var(--button-color);
     border-radius: 8px;
     display: block;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
 }
 
 .form-container input:focus {
     outline: 1px solid var(--button-color);
+}
+
+.form-container label {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .form-header {
@@ -149,7 +158,7 @@ input[type=number] {
 }
 
 .form-footer {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     align-self: flex-start;
     padding-left: 5%;
     width: 70%;
@@ -161,4 +170,5 @@ input[type=number] {
 
 .form-footer a, .form-footer a:visited {
     color: var(--button-color);
+    text-decoration: none;
 }
