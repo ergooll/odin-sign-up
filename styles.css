@@ -17,13 +17,14 @@ body {
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
-  -moz-appearance: textfield;
+    appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .main-container {
@@ -99,11 +100,11 @@ input[type=number] {
     align-self: flex-start;
     padding-left: 5%;
     width: 70%;
-    line-height: 1.5rem;
 }
 
 .intro-text p {
     margin: 0;
+    font-size: 1.75rem;
 }
 
 .form-container {
