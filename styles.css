@@ -144,11 +144,13 @@ input[type=number] {
 }
 
 .form-container input:focus:invalid {
-    outline: 1px solid #923030;
+    outline: 1px solid #d54646;
+    transition: 1s;
 }
 
 .form-container input:focus:valid {
-    outline: 1px solid #599230;
+    outline: 1px solid #7ccb43;
+    transition: 0.2s;
 }
 
 .form-container label {
