@@ -143,6 +143,14 @@ input[type=number] {
     outline: 1px solid var(--button-color);
 }
 
+.form-container input:focus:invalid {
+    outline: 1px solid #923030;
+}
+
+.form-container input:focus:valid {
+    outline: 1px solid #599230;
+}
+
 .form-container label {
     font-size: 0.8rem;
     font-weight: 600;
